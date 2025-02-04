@@ -6,7 +6,7 @@ function Experience() {
       period: "06/2023 - 12/2023",
       achievements: [
         "Designed and developed responsive user interfaces using React, managing the full frontend development lifecycle",
-        "•Integrated Sanity CMS to enhance content management efficiency for clients.",
+        "Integrated Sanity CMS to enhance content management efficiency for clients.",
         "Focused on performance optimization, creating fast, scalable websites with exceptional user experiences.",
       ],
     },
