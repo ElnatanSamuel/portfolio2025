@@ -3,37 +3,41 @@ function Experience() {
     {
       role: "FRONTEND DEVELOPER",
       company: "ALE INTERIOR",
-      period: "08/2023 - 02/2024",
-      description:
-        "Built a website for a local interior design store using React, TailwindCSS and Sanity CMS for content management.",
+      period: "06/2023 - 12/2023",
       achievements: [
-        "Designed and built responsive user interfaces with React, handling the entire front-end process from start to finish.",
-        "Integrated Sanity CMS for efficient content management and real-time updates.",
-        "Optimized performance and implemented SEO best practices for better search engine rankings",
+        "Designed and developed responsive user interfaces using React, managing the full frontend development lifecycle",
+        "•Integrated Sanity CMS to enhance content management efficiency for clients.",
+        "Focused on performance optimization, creating fast, scalable websites with exceptional user experiences.",
       ],
     },
     {
-      role: "AI ENGINEER",
+      role: "AI RESEARCH INTERN",
       company: "iCog Labs",
-      period: "08/2024 - 12/2024",
-      description:
-        "Worked on training AI models and researching AGI concepts for different projects.",
+      period: "08/2024 - 11/2024",
       achievements: [
-        "Trained and executed AI models with various datasets.",
-        "Researched AGI concepts to help with increasing intelligence of LLMs.",
-        "Researched Deep Learning and Reinforcement Learning concepts and they can closely resemble the human brain.",
-        "Worked on creating a knowledge graph and data filtration/cleaning to populate the companies database.",
+        "Trained and implemented AI models using diverse datasets.",
+        "Conducted research on AGI concepts to improve LLM intelligence",
+        "Explored Deep Learning and Reinforcement Learning principles to model human-like intelligence.",
+        "Developed a knowledge graph and cleaned datasets to populate the company’s database.",
       ],
     },
     {
       role: "MOBILE APP DEVELOPER",
-      company: "BIMACON",
-      description:
-        "Built a mobile app for a client in the construction industry to help with managing their projects.",
+      company: "BIMACON CONSTRUCTION",
+      period: "09/2024 - 12/2024",
       achievements: [
-        "Used react native to build a cross platform mobile app for construction management.",
-        "Inegrated a graphql api to fetch data from the backend.",
-        "Helped with design changes and user experience testing",
+        "Developed a cross-platform construction management app using React Native.",
+        "Integrated a GraphQL API to streamline backend data retrieval.",
+        "Contributed to design improvements and conducted user experience testing.",
+      ],
+    },
+    {
+      role: "WEB DEVELOPMENT TRAINER",
+      company: "ABOL ACADEMY",
+      period: "12/2024",
+      achievements: [
+        "Created structured learning modules and documentation to guide students in web development.",
+        "Provided hands-on training and online support, ensuring student success in frontend and backend technologies.",
       ],
     },
   ];
@@ -76,9 +80,6 @@ function Experience() {
                     {exp.company}
                   </p>
                   <p className="text-gray-500 font-mono mb-4">{exp.period}</p>
-                  <p className="text-gray-400 font-mono mb-4">
-                    {exp.description}
-                  </p>
                   <ul className="space-y-2">
                     {exp.achievements.map((achievement, i) => (
                       <li
